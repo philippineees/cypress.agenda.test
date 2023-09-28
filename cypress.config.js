@@ -26,7 +26,7 @@ module.exports = defineConfig({
 
     setupNodeEvents,
 
-    baseUrl:'https://proxima.sisprevweb.com.br/esocial_depuracao03/',
+    baseUrl:'https://proxima.sisprevweb.com.br/municipio05/Login/Login.aspx',
 
     watchForFileChanges:false,
 
@@ -44,7 +44,7 @@ module.exports = defineConfig({
 
     specPattern: [
 
-      'cypress/e2e/tests/features/**/*.feature',
+      'cypress/e2e/tests/*/features/**/*.feature',
 
     ]
 

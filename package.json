@@ -14,7 +14,7 @@
     "cypress": "^13.2.0"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/e2e/tests/steps/**/**.steps.js",
+    "stepDefinitions": "cypress/e2e/tests/*/steps/**/**.steps.js",
     "filterSpecs": true,
     "omitFiltered": true
   }
