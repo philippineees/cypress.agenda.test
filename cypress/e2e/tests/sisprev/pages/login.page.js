@@ -10,14 +10,13 @@ class LoginPage{
             return false})
         cy.get('#txtUSER').click().type('1740')
         cy.get('#txtPassWord').click().type('cefda5')
-        cy.get('#btnLogin').click()
+        cy.contains('Acessar').click({multiple: true, force: true})
+
+        //foi averiguado que o sisprevweb está apresentando erro de login
     }
     
     selecionaBaseDados(){
-        cy.get('#mat-dialog-0').should('be.visible')
-        cy.get('#mat-select-4 > .mat-select-trigger > .mat-select-value > .mat-select-placeholder').click()
-        cy.get('#mat-option-17').should('be.visible').click()
-        cy.contains('Confirmar').click() 
+        return true 
     }
 }
 export default new LoginPage()

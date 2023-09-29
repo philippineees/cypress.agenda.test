@@ -26,7 +26,7 @@ module.exports = defineConfig({
 
     setupNodeEvents,
 
-    baseUrl:'https://proxima.sisprevweb.com.br/municipio05/Login/Login.aspx',
+    baseUrl:'https://proxima.sisprevweb.com.br/PortalTransparencia01/admin',
 
     watchForFileChanges:false,
 
