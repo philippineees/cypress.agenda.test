@@ -8,7 +8,7 @@ Given('O usuário está logado no portal transparência', () => {
     loginPage.PaginaInicial()
 })
     
-When('clica em Parametro Gerais', () => {
+When('clica no módulo Parametro Gerais', () => {
     navegaMenuPage.parametroGeral()
 }) 
 
@@ -16,3 +16,10 @@ Then('clica em configurações de rodapé e acessa a pagina', () => {
     navegaMenuPage.configuraRodape()
 }) 
 
+When('clica no módulo Certificados e Demonstrativos', () => {
+    navegaMenuPage.CertifeDemons()
+})
+
+Then('clica no submódulo CRP - Certificado de Regularidade Previdenciária', () => {
+    navegaMenuPage.CRP()    
+})

@@ -10,6 +10,13 @@ class navegaMenu {
         cy.contains('Parâmetros do Rodape').should('be.visible')
     }
 
+    CertifeDemons(){
+        cy.get(':nth-child(21) > :nth-child(1)').click()
+    }
+
+    CRP (){
+        cy.get('[style="display: block;"] > :nth-child(1) > .waves-effect').click()
+    }
 
 }
 
